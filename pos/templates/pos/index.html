@@ -1,0 +1,47 @@
+{% extends 'pos/base.html' %}
+{% load staticfiles %}
+{% block content %}
+
+<div class="homepage-section">
+    <h3>Dashboard</h3>
+
+    <ul>
+        <li>
+            <a href="/Purchase/InventoryDashBoard">
+                <h3><i class="fa fa-industry" aria-hidden="true"></i>&nbsp;&nbsp;Inventory</h3>
+                <p>Lorem ipsume title</p>
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <h3><i class="fa fa-group" aria-hidden="true"></i>&nbsp;Employee</h3>
+                <p>Lorem ipsume title</p>
+            </a>
+        </li>
+        <li>
+            <a href="/Accounts/AccountsDashbord">
+                <h3><i class="fa fa-user" aria-hidden="true"></i>&nbsp;&nbsp;Accounts</h3>
+                <p>Lorem ipsume title</p>
+            </a>
+        </li>
+        <li>
+            <a href="/Reports/ReportDashbord">
+                <h3><i class="fa fa-indent" aria-hidden="true"></i>&nbsp;Reports</h3>
+                <p>Lorem ipsume title</p>
+            </a>
+        </li>
+        <li>
+            <a href="/Settings/SettingsDashbord">
+                <h3><i class="fa fa-cog" aria-hidden="true"></i>&nbsp;&nbsp;Settings</h3>
+                <p>Lorem ipsume title</p>
+            </a>
+        </li>
+        <li>
+            <a href="/User/Login">
+                <h3><i class="fa fa-indent" aria-hidden="true"></i>&nbsp;Log Out</h3>
+                <p>Lorem ipsume title</p>
+            </a>
+        </li>
+    </ul>
+</div>
+{% endblock %}
